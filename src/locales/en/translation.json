@@ -5,5 +5,11 @@
         "education": "Education",
         "projects": "Projects",
         "contact": "Contact"
+    },
+    "home": {
+        "title": "Pablo Pedrosa Butrón,",
+        "descrip1": "fullstack ",
+        "descrip2": "web developer",
+        "descrip3": "I focus on creativity, functionality and results."
     }
 }

@@ -5,12 +5,11 @@ import { Box, FormControlLabel, Switch, Typography } from "@mui/material";
 import { CustomThemeContext } from "../contexts/CustomThemeContext";
 
 import { styled } from "@mui/material/styles";
-import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "@emotion/react";
 
 export const ToggleTheme = ({ type }) => {
-  const { currentTheme, toggleTheme } = useContext(CustomThemeContext);
+  const { toggleTheme } = useContext(CustomThemeContext);
   const { i18n } = useTranslation();
 
   const changeLanguage = (lang) => {

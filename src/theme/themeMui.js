@@ -4,16 +4,23 @@ export const LightTheme = createTheme({
     palette: {
         mode: 'light',
         primary: {
-            main: '#1976d2',
+            main: '#fefefe',
             light: '#42a5f5',
             dark: '#42a5f5',
             contrastText: '#fff',
         },
         secondary: {
-            main: '#9c27b0',
+            main: '#077784',
             light: '#ba68c8',
             dark: '#7b1fa2',
             contrastText: '#fff',
+        },
+        terciary: {
+            main: '#e8c348',
+            contrastText: '#fefefe'
+        },
+        white: {
+            main: '#fff',
         },
         error: {
             main: '#d32f2f',
@@ -22,7 +29,7 @@ export const LightTheme = createTheme({
             contrastText: '#fff',
         },
         warning: {
-            main: '#ed6c02',
+            main: '#cd553c',
             light: '#ff9800',
             dark: '#e65100',
             contrastText: '#fff',
@@ -40,15 +47,15 @@ export const LightTheme = createTheme({
             contrastText: '#fff',
         },
         text: {
-            primary: 'rgba(0, 0, 0, 0.87)',
+            primary: '#282624',
             secondary: 'rgba(0, 0, 0, 0.6)',
             disabled: 'rgba(0, 0, 0, 0.38)',
             icon: 'rgba(0, 0, 0, 0.12)'
         },
-        divider: 'rgba(0, 0, 0, 0.12)',
+        divider: '#00D9D5',
         background: {
-            paper: '#fff',
-            default: '#fff'
+            paper: '#fefefe',
+            default: '#fefefe'
         },
         action: {
             active: 'rgba(0, 0, 0, 0.54)',
@@ -59,7 +66,6 @@ export const LightTheme = createTheme({
             focus: 'rgba(0, 0, 0, 0.12)'
         }
     },
-
 });
 
 
@@ -67,16 +73,24 @@ export const DarkTheme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: '#90caf9',
+            main: '#8dfce3',
             light: '#e3f2fd',
             dark: '#42a5f5',
             contrastText: 'rgba(0, 0, 0, 0.87)',
         },
         secondary: {
-            main: '#ce93d8',
+            // main: '#FBDB04',
+            main: '#00D9D5',
             light: '#f3e5f5',
             dark: '#ab47bc',
             contrastText: 'rgba(0, 0, 0, 0.87)',
+        },
+        terciary: {
+            main: '#fbdb04',
+            contrastText: '#000'
+        },
+        white: {
+            main: '#fff',
         },
         error: {
             main: '#f44336',
@@ -103,12 +117,12 @@ export const DarkTheme = createTheme({
             contrastText: 'rgba(0, 0, 0, 0.87)',
         },
         text: {
-            primary: '#fff',
+            primary: '#ffffff',
             secondary: 'rgba(255, 255, 255, 0.7)',
             disabled: 'rgba(255, 255, 255, 0.5)',
             icon: 'rgba(255, 255, 255, 0.12)'
         },
-        divider: 'rgba(255, 255, 255, 012)',
+        divider: '#00D9D5',
         background: {
             paper: '#121212',
             default: '#121212'
